@@ -4,9 +4,9 @@ Software Tester
 	a) Agile
 	b) JIRA
 2. Web Developments Fundamentals
-	a) HTML
-	b) CSS
-	c) Javascript
+	a) HTML (html, head, b, body, title, font, input, iframe, select, radio, text, password)
+	b) CSS (style, .class, #id, internal, external, inline)
+	c) Javascript (onclick, function, alert, if -else)
 3. Java Programming Language
 	a) Class
 	b) Method (Main, Constructor, Void, Return type, Parameter/Arguments)
