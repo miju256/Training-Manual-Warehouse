@@ -1,0 +1,4 @@
+	How to install Appache, MYSQL, PHP
+
+1> Go to http://www.apachefriends.org/en/xampp-windows.html#641
+2> 
