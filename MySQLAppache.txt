@@ -8,3 +8,9 @@ How to install Appache, MYSQL, PHP
 4: 
 
 
+Download Fiddler
+
+1: Go to> http://fiddler2.com/get-fiddler
+2: Select> any Fiddler to install
+3: Save and complete download
+
