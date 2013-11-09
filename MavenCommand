@@ -8,3 +8,21 @@ cd ~/Desktop
 2. How to create a new folder
 
 mkdir TestNgProject
+
+3. How to see the folder and file
+
+dir (in Win) , ls (linux, Mac)
+
+4. How to chnage directory
+
+cd TestNgProject
+
+
+5. How to create a maven test using command prompt or git bash
+
+mvn archetype:generate -DgroupId=com.bit.test -DartifactId=BitMavenAutomation
+
+
+
+
+
