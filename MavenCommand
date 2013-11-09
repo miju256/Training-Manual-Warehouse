@@ -17,6 +17,8 @@ dir (in Win) , ls (linux, Mac)
 
 cd TestNgProject
 
+To run a maven test we need to create a file which last name will be Test
+
 
 5. How to create a maven test using command prompt or git bash
 
