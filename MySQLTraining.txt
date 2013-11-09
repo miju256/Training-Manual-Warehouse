@@ -1,0 +1,32 @@
+Database consists of only tables
+
+Tables consists of rows and cols
+
+Rows consists of Data
+
+Columns are also called field
+
+Rows are also called record
+==================================
+
+To show databases
+Command : show databases;
+
+To create a database
+Command : create database bit;
+
+Access denied. Because you are not logged in as database admin 
+
+To exit from database
+Command : exit
+
+To enter into mysql database as admin
+Command : mysql -u root -p 
+
+To create a database you need to select a database first. To select a database
+Command : use bit;
+
+To create a table
+Command : create table employee(ID int, Name varchar(40), Address varchar(100), Email varchar(50), Salary int);
+
+
