@@ -29,4 +29,8 @@ Command : use bit;
 To create a table
 Command : create table employee(ID int, Name varchar(40), Address varchar(100), Email varchar(50), Salary int);
 
+To show tables
+Command : show tables;
 
+To describe or see table column and details of  tables
+Command : describe employee;
