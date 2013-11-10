@@ -1,0 +1,3 @@
+How to run multiple tests concurently
+
+java -jar selenium-server-standalone-2.37.0.jar -role hub -port 4444

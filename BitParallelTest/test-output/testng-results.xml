@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6139" started-at="2013-11-10T16:58:31Z" finished-at="2013-11-10T16:58:37Z">
+  <suite name="Default suite" duration-ms="6509" started-at="2013-11-10T17:10:30Z" finished-at="2013-11-10T17:10:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6139" started-at="2013-11-10T16:58:31Z" finished-at="2013-11-10T16:58:37Z">
+    <test name="Default test" duration-ms="6509" started-at="2013-11-10T17:10:30Z" finished-at="2013-11-10T17:10:36Z">
       <class name="Demo2Test">
-        <test-method status="PASS" signature="start()[pri:0, instance:Demo2Test@4fa49021]" name="start" is-config="true" duration-ms="1944" started-at="2013-11-10T11:58:31Z" finished-at="2013-11-10T11:58:33Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:Demo2Test@bc38d3]" name="start" is-config="true" duration-ms="1964" started-at="2013-11-10T12:10:30Z" finished-at="2013-11-10T12:10:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="chat()[pri:0, instance:Demo2Test@4fa49021]" name="chat" duration-ms="1782" started-at="2013-11-10T11:58:33Z" finished-at="2013-11-10T11:58:35Z">
+        <test-method status="PASS" signature="chat()[pri:0, instance:Demo2Test@bc38d3]" name="chat" duration-ms="1904" started-at="2013-11-10T12:10:31Z" finished-at="2013-11-10T12:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chat -->
-        <test-method status="PASS" signature="upload()[pri:0, instance:Demo2Test@4fa49021]" name="upload" duration-ms="1893" started-at="2013-11-10T11:58:35Z" finished-at="2013-11-10T11:58:37Z">
+        <test-method status="PASS" signature="upload()[pri:0, instance:Demo2Test@bc38d3]" name="upload" duration-ms="369" started-at="2013-11-10T12:10:33Z" finished-at="2013-11-10T12:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upload -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Demo2Test@4fa49021]" name="end" is-config="true" duration-ms="322" started-at="2013-11-10T11:58:37Z" finished-at="2013-11-10T11:58:37Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:Demo2Test@bc38d3]" name="end" is-config="true" duration-ms="281" started-at="2013-11-10T12:10:36Z" finished-at="2013-11-10T12:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- Demo2Test -->
       <class name="Demo1Test">
-        <test-method status="FAIL" signature="login()[pri:0, instance:Demo1Test@63e79aa3]" name="login" duration-ms="135" started-at="2013-11-10T11:58:37Z" finished-at="2013-11-10T11:58:37Z">
+        <test-method status="FAIL" signature="login()[pri:0, instance:Demo1Test@3b999ccc]" name="login" duration-ms="1932" started-at="2013-11-10T12:10:34Z" finished-at="2013-11-10T12:10:36Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"id","selector":"email"}
-Command duration or timeout: 122 milliseconds
+Command duration or timeout: 1.83 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
 System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 9bf4e2c5-5eb7-4243-a6d4-9bafc1a49511
+Session ID: 5de5d437-c5bc-4843-afdd-68425468249e
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"email"}
-Command duration or timeout: 122 milliseconds
+Command duration or timeout: 1.83 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
 System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 9bf4e2c5-5eb7-4243-a6d4-9bafc1a49511
+Session ID: 5de5d437-c5bc-4843-afdd-68425468249e
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -86,36 +86,36 @@ Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unabl
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
 System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="signup()[pri:0, instance:Demo1Test@63e79aa3]" name="signup" duration-ms="32" started-at="2013-11-10T11:58:37Z" finished-at="2013-11-10T11:58:37Z">
+        <test-method status="FAIL" signature="signup()[pri:0, instance:Demo1Test@3b999ccc]" name="signup" duration-ms="28" started-at="2013-11-10T12:10:36Z" finished-at="2013-11-10T12:10:36Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"id","selector":"u_0_0"}
-Command duration or timeout: 30 milliseconds
+Command duration or timeout: 28 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
 System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 9bf4e2c5-5eb7-4243-a6d4-9bafc1a49511
+Session ID: 5de5d437-c5bc-4843-afdd-68425468249e
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"u_0_0"}
-Command duration or timeout: 30 milliseconds
+Command duration or timeout: 28 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
 System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 9bf4e2c5-5eb7-4243-a6d4-9bafc1a49511
+Session ID: 5de5d437-c5bc-4843-afdd-68425468249e
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -158,11 +158,11 @@ Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unabl
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
 System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous3434950554572972502webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ridwan/AppData/Local/Temp/anonymous6887805263766617269webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
