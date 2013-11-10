@@ -1,3 +1,7 @@
 How to run multiple tests concurently
 
+
+C:\Users\ridwan\Desktop\Training-Manual-Warehouse\AllJarFiles
 java -jar selenium-server-standalone-2.37.0.jar -role hub -port 4444
+java -jar selenium-server-standalone-2.37.0.jar -role node -hub http://localhost:4444/grid/register -browser browserName=firefox,maxInstances=3
+
