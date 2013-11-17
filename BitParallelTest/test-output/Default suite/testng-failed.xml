@@ -5,16 +5,11 @@
     <classes>
       <class name="Demo2Test">
         <methods>
+          <include name="testLink"/>
           <include name="end"/>
           <include name="start"/>
         </methods>
       </class> <!-- Demo2Test -->
-      <class name="Demo1Test">
-        <methods>
-          <include name="signup"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- Demo1Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

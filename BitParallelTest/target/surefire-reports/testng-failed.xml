@@ -3,18 +3,13 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="BaseTest">
+      <class name="Demo2Test">
         <methods>
+          <include name="testLink"/>
           <include name="end"/>
           <include name="start"/>
         </methods>
-      </class> <!-- BaseTest -->
-      <class name="Demo1Test">
-        <methods>
-          <include name="signup"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- Demo1Test -->
+      </class> <!-- Demo2Test -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

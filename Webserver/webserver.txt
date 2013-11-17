@@ -1,0 +1,20 @@
+Date : 11/16/2013
+
+Web Server 
+------------------
+The term web server can refer to either the hardware 
+(the computer) or the software (the computer application)
+that helps to deliver web content(html,css,javascript,image) that can be accessed 
+through the Internet.
+
+Renowned web server in the market
+
+1. Apache
+2. Tomcat
+3. Jboss
+4. IIS
+5. Websphere
+6. Weblogic
+
+
+
