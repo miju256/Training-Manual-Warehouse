@@ -16,5 +16,28 @@ Renowned web server in the market
 5. Websphere
 6. Weblogic
 
+Web server serves to browser
+
+Domain Name
+Example : www.google.com
+Example : localhost
+
+IP address (Web Server address)
+Example : 161.58.104.2
+Example : 127.0.0.1
+
+Database
+Name : Mysql
+
+Database consists of tables;
+Tables consists Columns and Rows
+
+PHP
+Server side language which will talk with server (apache)
+and will store data into database
+PHP Hypertext Preprocessor
+http://www.w3schools.com/php/php_intro.asp
+
+
 
 
