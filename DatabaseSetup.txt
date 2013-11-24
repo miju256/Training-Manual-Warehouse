@@ -4,29 +4,55 @@ Note:
 Database consists of tables.
 Tables consists of column/field and row.
 
+1. First open command prompt and type 
 
 mysql -u root
 
-create  database testdb1;
+
+2. Create database by typing 
+
+create  database databasename;
+
+
+3.Verify that database created. For that type 
 
 show databases;
 
-use testdb1; // to access database
+
+4.To access database and to create a table into a database we need to enter 
+into database first type
+
+
+use databasename; 
+
+
+5. Create a table into database. Sample table creation query provided
 
 create table info(name varchar(30), email varchar(60));
+create table info1(phone varchar(30), password varchar(60), id int);
+create table studentinfo(name varchar(30), email varchar(60), password varchar(20));
+
+ 
+6. To see tables type
 
 show tables;
 
 
-create table info1(phone varchar(30), password varchar(60), id int);
 
-describe info; //to see structure of the table. info here is a table name
+7. To see structure of the table. info here is a table name. type
+
+
+describe tablename;
+
+
+8. 
+
 
 select * from info; //here * means all column
 
 select name from info // to see only specific column. here name is a column
 
-insert into info(name,email) values ('Asad Zaman', 'asad@gmail.com');
+
 
 // how to change an existing column name. here name is existing column 
 alter table info change name fname varchar (100) ; 
