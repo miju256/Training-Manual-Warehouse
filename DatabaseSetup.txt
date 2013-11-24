@@ -44,8 +44,14 @@ show tables;
 
 describe tablename;
 
+8. To insert data into tables type
 
-8. 
+insert into tablename(col1,col2.....) values ('value1', 'value2', .....);
+
+Example : 
+
+insert into studentinfo(name,email,password) values ('Asad', 'asad@gmail.com','123');
+
 
 
 select * from info; //here * means all column
