@@ -28,7 +28,7 @@ public class BaseTest
         FirefoxProfile fp = new FirefoxProfile();
         dc.setCapability(FirefoxDriver.PROFILE, fp);
         dc.setBrowserName(DesiredCapabilities.firefox().getBrowserName());
-        threadDriver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc));
+        threadDriver.set(new RemoteWebDriver(new URL("http://localhost:4448/wd/hub"), dc));
     }
  
     public WebDriver getDriver() {
