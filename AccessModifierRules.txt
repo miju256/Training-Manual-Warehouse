@@ -5,3 +5,4 @@ Access Modifiers rules
 extended
 3. For private method we should create a getters method for access
 
+
