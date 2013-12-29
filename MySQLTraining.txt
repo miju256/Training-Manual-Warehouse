@@ -34,3 +34,5 @@ Command : show tables;
 
 To describe or see table column and details of  tables
 Command : describe employee;
+
+
