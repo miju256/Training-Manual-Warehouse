@@ -35,4 +35,29 @@ Command : show tables;
 To describe or see table column and details of  tables
 Command : describe employee;
 
+To insert Data into table;
+Command :
+way 1 : insert into table1(id,name,telephone) values('1','asad','9173493746');
+way 2 : insert into table1 values('1','asad','9173493746');
+(table1 is a table name)
+
+To change a column data type;
+Command : alter table table1 modify Telephone varchar(20);
+
+To change a column name;
+Command : alter table table1 change Telephone Tel varchar(20);
+
+To update a column info;
+Command :  update table1 set Tel=6462736464 where Name='Tani';
+
+To delete a column;
+Command : alter table table1 drop Email;
+
+To show data based on column search;
+Command :  select * from table1 where City = 'Bronx';
+
+To show the count of
+
+select count(Population) from table1;
+
 
