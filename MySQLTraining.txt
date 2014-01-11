@@ -60,4 +60,21 @@ To show the count of
 
 select count(Population) from table1;
 
+===========================
+
+To enter into mysql databas server?
+command : mysql -u root -h localhost -p
+OR
+Command : mysql -u (userName) -h 127.0.0.1 -p
+
+
+To show the loged-In user name in existing
+command: select user();
+
+TO show all users account
+Command: select user from mysql.user;
+
+To get info from 2 different table
+Command: select table1.s_id, name, cell, ssn from table1 join table2
+	 on table1.s_id = table2.s_id;
 
