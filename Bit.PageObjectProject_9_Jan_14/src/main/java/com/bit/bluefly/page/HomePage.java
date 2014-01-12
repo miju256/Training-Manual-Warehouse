@@ -14,8 +14,10 @@ public class HomePage
 		driver.get("http://www.bluefly.com");
 	}
 	
-	public void clickWomanLink()
+	public WomenPage clickWomanLink() throws Exception
 	{
 		driver.findElement(By.xpath("//li[@id='main-nav-woman']/a")).click();
+		Thread.sleep(3000);
+		return new WomenPage(driver);
 	}
 }

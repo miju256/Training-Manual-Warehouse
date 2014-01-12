@@ -17,8 +17,9 @@ public class BaseTest
 	}
 	
 	@After
-	public void end()
+	public void end() throws Exception
 	{
+		Thread.sleep(3000);
 		driver.quit();
 	}
 	
