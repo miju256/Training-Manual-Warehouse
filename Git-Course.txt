@@ -1,5 +1,7 @@
 How to add a new folder and all files in that folder to Git  repository
 
+Date : 1/19/2014
+
 	1. Go to folder level
 	2. type :  git init
 	3. type :  git add -A   
