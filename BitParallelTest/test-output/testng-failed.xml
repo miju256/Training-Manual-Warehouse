@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [Parallel test runs]" parallel="tests">
-  <test name="T_02(failed)" parallel="tests">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="Demo4Test">
         <methods>
-          <include name="end"/>
+          <include name="testLink"/>
           <include name="start"/>
         </methods>
       </class> <!-- Demo4Test -->
-      <class name="Demo3Test">
-        <methods>
-          <include name="end"/>
-          <include name="start"/>
-        </methods>
-      </class> <!-- Demo3Test -->
-      <class name="Demo2Test">
-        <methods>
-          <include name="testLink"/>
-          <include name="end"/>
-          <include name="start"/>
-        </methods>
-      </class> <!-- Demo2Test -->
-      <class name="Demo1Test">
-        <methods>
-          <include name="end"/>
-          <include name="start"/>
-        </methods>
-      </class> <!-- Demo1Test -->
     </classes>
-  </test> <!-- T_02(failed) -->
-</suite> <!-- Failed suite [Parallel test runs] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

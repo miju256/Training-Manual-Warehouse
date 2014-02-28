@@ -1,69 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel test runs" duration-ms="68165" started-at="2013-11-17T18:52:27Z" finished-at="2013-11-17T18:53:35Z">
+  <suite name="Default suite" duration-ms="2762" started-at="2014-01-23T14:00:42Z" finished-at="2014-01-23T14:00:44Z">
     <groups>
     </groups>
-    <test name="T_02" duration-ms="23565" started-at="2013-11-17T18:52:27Z" finished-at="2013-11-17T18:52:51Z">
-      <class name="Demo2Test">
-        <test-method status="PASS" signature="start()[pri:0, instance:Demo2Test@65067a13]" name="start" is-config="true" duration-ms="14945" started-at="2013-11-17T13:52:27Z" finished-at="2013-11-17T13:52:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="FAIL" signature="testLink()[pri:0, instance:Demo2Test@65067a13]" name="testLink" duration-ms="7273" started-at="2013-11-17T13:52:42Z" finished-at="2013-11-17T13:52:50Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test name="Default test" duration-ms="2762" started-at="2014-01-23T14:00:42Z" finished-at="2014-01-23T14:00:44Z">
+      <class name="Demo4Test">
+        <test-method status="FAIL" signature="start()[pri:0, instance:Demo4Test@6cb59850]" name="start" is-config="true" duration-ms="0" started-at="2014-01-23T20:00:42Z" finished-at="2014-01-23T20:00:42Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//label1"}
-Command duration or timeout: 18 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
-System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 73f9e36d-b7c1-4922-8d2a-13d9c185ec00
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0.1}]
-Command duration or timeout: 285 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
-System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 2555717e-c4d0-4930-ad14-50712731e20e
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=2555717e-c4d0-4930-ad14-50712731e20e, version=25.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+System info: host: 'Zannatul-PC', ip: '192.168.75.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//label1"}
-Command duration or timeout: 18 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
-System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 73f9e36d-b7c1-4922-8d2a-13d9c185ec00
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0.1}]
-Command duration or timeout: 285 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
-System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 2555717e-c4d0-4930-ad14-50712731e20e
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=2555717e-c4d0-4930-ad14-50712731e20e, version=25.0.1, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at Demo2Test.testLink(Demo2Test.java:12)
+System info: host: 'Zannatul-PC', ip: '192.168.75.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at BaseTest.start(BaseTest.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
@@ -71,119 +40,54 @@ Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browser
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
 	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
-System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
-	... 27 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//label1"}
-Command duration or timeout: 18 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
-System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
-Session ID: 73f9e36d-b7c1-4922-8d2a-13d9c185ec00
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=25.0.1}]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.37.1', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-21 09:08:07'
-System info: host: 'ridwan-PC', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
-	... 3 more
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Demo2Test@65067a13]" name="end" is-config="true" duration-ms="1319" started-at="2013-11-17T13:52:50Z" finished-at="2013-11-17T13:52:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- Demo2Test -->
-    </test> <!-- T_02 -->
-    <test name="T_01" duration-ms="47555" started-at="2013-11-17T18:52:27Z" finished-at="2013-11-17T18:53:15Z">
-      <class name="Demo1Test">
-        <test-method status="PASS" signature="start()[pri:0, instance:Demo1Test@77cb95b3]" name="start" is-config="true" duration-ms="33747" started-at="2013-11-17T13:52:27Z" finished-at="2013-11-17T13:53:01Z">
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Demo1Test@77cb95b3]" name="testLink" duration-ms="10688" started-at="2013-11-17T13:53:01Z" finished-at="2013-11-17T13:53:12Z">
+        <test-method status="SKIP" signature="testLink()[pri:0, instance:Demo4Test@6cb59850]" name="testLink" duration-ms="1" started-at="2014-01-23T20:00:44Z" finished-at="2014-01-23T20:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Demo1Test@77cb95b3]" name="end" is-config="true" duration-ms="3106" started-at="2013-11-17T13:53:12Z" finished-at="2013-11-17T13:53:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- Demo1Test -->
-    </test> <!-- T_01 -->
-    <test name="T_03" duration-ms="34000" started-at="2013-11-17T18:52:51Z" finished-at="2013-11-17T18:53:25Z">
-      <class name="Demo3Test">
-        <test-method status="PASS" signature="start()[pri:0, instance:Demo3Test@504be958]" name="start" is-config="true" duration-ms="28882" started-at="2013-11-17T13:52:51Z" finished-at="2013-11-17T13:53:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Demo3Test@504be958]" name="testLink" duration-ms="4441" started-at="2013-11-17T13:53:20Z" finished-at="2013-11-17T13:53:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Demo3Test@504be958]" name="end" is-config="true" duration-ms="673" started-at="2013-11-17T13:53:24Z" finished-at="2013-11-17T13:53:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- Demo3Test -->
-    </test> <!-- T_03 -->
-    <test name="T_04" duration-ms="20595" started-at="2013-11-17T18:53:15Z" finished-at="2013-11-17T18:53:35Z">
-      <class name="Demo4Test">
-        <test-method status="PASS" signature="start()[pri:0, instance:Demo4Test@58c04c2b]" name="start" is-config="true" duration-ms="13957" started-at="2013-11-17T13:53:15Z" finished-at="2013-11-17T13:53:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="testLink()[pri:0, instance:Demo4Test@58c04c2b]" name="testLink" duration-ms="4812" started-at="2013-11-17T13:53:29Z" finished-at="2013-11-17T13:53:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLink -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Demo4Test@58c04c2b]" name="end" is-config="true" duration-ms="1823" started-at="2013-11-17T13:53:34Z" finished-at="2013-11-17T13:53:35Z">
+        <test-method status="SKIP" signature="end()[pri:0, instance:Demo4Test@6cb59850]" name="end" is-config="true" duration-ms="0" started-at="2014-01-23T20:00:44Z" finished-at="2014-01-23T20:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- Demo4Test -->
-    </test> <!-- T_04 -->
-  </suite> <!-- Parallel test runs -->
-  <suite name="My Test Suite" duration-ms="0" started-at="2013-11-17T18:53:36Z" finished-at="2013-11-17T18:53:36Z">
-    <groups>
-    </groups>
-  </suite> <!-- My Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
