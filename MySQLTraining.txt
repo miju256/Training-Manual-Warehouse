@@ -27,15 +27,7 @@ To create a database you need to select a database first. To select a database
 Command : use bit;
 
 To create a table
-Command : create table employee(ID int, Name varchar(40), Address varchar(100), Email varchar(50), Salary int);
-
-To show tables
-Command : show tables;
-
-To describe or see table column and details of  tables
-Command : describe employee;
-
-To insert Data into table;
+Command : D
 Command :
 way 1 : insert into table1(id,name,telephone) values('1','asad','9173493746');
 way 2 : insert into table1 values('1','asad','9173493746');
@@ -63,7 +55,7 @@ select count(Population) from table1;
 ===========================
 
 To enter into mysql databas server?
-command : mysql -u root -h localhost -p
+command : mysql -u root -h (localhost) -p
 OR
 Command : mysql -u (userName) -h 127.0.0.1 -p
 
@@ -77,4 +69,5 @@ Command: select user from mysql.user;
 To get info from 2 different table
 Command: select table1.s_id, name, cell, ssn from table1 join table2
 	 on table1.s_id = table2.s_id;
-
+How to get privileges...
+ grant all privileges on * . * to 'zia'@'localhost';
