@@ -1,5 +1,7 @@
 package com.bit.bluefly.page;
 
-public class HomePage {
+public class HomePage
+{
+	
 
 }
